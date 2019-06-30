@@ -15,15 +15,10 @@ Spring Initializr is a great tool to bootstrap your Spring Boot projects.
 http://start.spring.io/
 the following steps have to be done.
 
-Launch Spring Initializr and choose the following
-Choose com.in28minutes.springboot.rest.example as Group
-Choose spring-boot-2-jdbc-with-h2 as Artifact
-Choose the following dependencies
-Web
-JDBC
-H2
-DevTools
-Click Generate Project.
+Base project is : https://dzone.com/articles/spring-boot-and-spring-jdbc-with-h2
+
+You can refer the steps that they mentioned.
+
 Import the project into Eclipse. (File -> Import -> Existing Maven Project)
 Starter Projects in pom.xml
 Below is the list of starter projects in pom.xml.
@@ -71,3 +66,15 @@ Image
 Tip: Make sure that you use jdbc:h2:mem:testdb as the JDBC URL.
 
 When you use the right JDBC URL given above, you should see an empty schema when you click the Connect button. Image
+
+Once you done with you can run teh project in 
+
+http://localhost:8080
+
+There you can find Birthday Calendar which includes add, edit & delete options.
+Also includes search option with by name and by place.
+
+The same can be viewed in H2 console.
+
+Thanks!
+
